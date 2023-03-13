@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#container {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#item {
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+button {
+    height: 2em;
+    border: none;
+    border-radius: 15%;
+    font-size: 18pt;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+#iniciar {
+    background-color: green;
+    color: white;
+}
+
+#pausar {
+    background-color: darkgray;
+    color: white;
+    display: none;
+}
+
+#resetar {
+    background-color: red;
+    color: white;
+}
